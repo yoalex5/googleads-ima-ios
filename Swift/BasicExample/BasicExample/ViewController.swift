@@ -16,13 +16,10 @@ class ViewController: UIViewController, IMAAdsLoaderDelegate, IMAAdsManagerDeleg
   var adsLoader: IMAAdsLoader!
   var adsManager: IMAAdsManager!
 
-//  static let kTestAppAdTagUrl =
-//      "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&" +
-//      "iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&" +
-//      "output=vast&unviewed_position_start=1&" +
-//      "cust_params=deployment%3Ddevsite%26sample_ct%3Dlinear&correlator=";
-    
-    static let kTestAppAdTagUrl = "https://sneezy.aws.rubiconproject.com/rp-eng-soln/rp-qa-sites/videoTest/ad1/recycling_VAST2.xml";
+  static let kTestAppAdTagUrl =
+      "https://pubads.g.doubleclick.net/gampad/ads?env=vp&gdfp_req=1&unviewed_position_start=1&output=vast&impl=s&" +
+      "iu=/5300653/test_adunit_vast_direct_pavliuchyk&sz=640x480&" +
+      "correlator=";
 
   override func viewDidLoad() {
     super.viewDidLoad()
